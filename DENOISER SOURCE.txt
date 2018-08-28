@@ -1,0 +1,1 @@
+Denoiser made by Declan Russel. Source: https://github.com/DeclanRussell/NvidiaAIDenoiser
