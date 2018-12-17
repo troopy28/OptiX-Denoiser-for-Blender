@@ -3,12 +3,14 @@ bl_info = {
     'category': 'Render'
 }
  
+import ntpath
+import os
+import subprocess
+
+import numpy
+
 import bpy
 import bpy.utils.previews
-import os
-import numpy
-import subprocess
-import ntpath
 
 custom_icons = None
 script_path = None
@@ -295,4 +297,3 @@ def unregister() :
         print("Unable to unregister the class \"optix_denoising_panel\"")
 
 if __name__ == "__main__" :
-    register()
