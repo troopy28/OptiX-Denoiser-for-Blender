@@ -298,3 +298,4 @@ def unregister() :
         print("Unable to unregister the class \"optix_denoising_panel\"")
 
 if __name__ == "__main__" :
+    register()
