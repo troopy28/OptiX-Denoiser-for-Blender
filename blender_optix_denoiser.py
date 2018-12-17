@@ -1,5 +1,7 @@
 bl_info = {
-    'name': 'OptiX denoising for Blender',
+    'name': 'OptiX denoising for Blender 2.80.0',
+    "version": (1, 1, 1),
+    "blender": (2, 80, 0),
     'category': 'Render'
 }
  
