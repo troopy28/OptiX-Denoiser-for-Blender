@@ -60,6 +60,7 @@
     <li>Add-ons</li>
 	<li>Install Add-on from File...</li>
 	<li>Select donwloaded blender_optix_denoiser.zip</li>
+	<li>Enable installed addon</li>
     <li>Render panel now has OptiX Denoising section at the bottom</li>
 </ul>
 
