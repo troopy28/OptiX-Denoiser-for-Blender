@@ -43,6 +43,9 @@
 <p>
 	Tested on Windows 8.1 64 bits, with Blender 2.79. 
 </p>
+<p>
+    Tested on Windows 10 x64 with Blender 2.80.0 Beta x64 (9149e894210)
+</p>
 
 <p>
 	<b>Developpers</b>, if you want to modify this addon, I recommend you to download the release directly, for the script will be the same as on this 
