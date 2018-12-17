@@ -26,7 +26,6 @@ def load_icons():
     print("Icon dir: " + icons_dir)
     custom_icons.load("optix_icon", os.path.join(icons_dir, "optix_logo.png"), 'IMAGE')
     print("OptiX logo path:" + os.path.join(icons_dir, "optix_logo.png"))
-    bpy.utils.register_module(__name__)
 
 def denoise_animation_frame(noisy_frame_path = ""):
     denoiser_path = os.path.abspath(os.path.join(os.path.dirname(script_path), "Denosier_v2.1")) + "\Denoiser.exe"
