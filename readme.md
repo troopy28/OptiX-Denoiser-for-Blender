@@ -36,6 +36,9 @@
 	sample image will result in strange results.
 </p>
 <br/>
+<p>
+<b>Works on both versions: 2.79 and 2.80 Beta</b> (thanks to Roman Kornev (https://github.com/RomanKornev/)) 
+</p>
 <br/>
 <p>
 	<b><u>DOWNLOAD LINK:</u></b>https://drive.google.com/open?id=10WNZuG4oaMIyLn0Klay7_DpZw5GzYHGF
@@ -46,9 +49,22 @@
 <p>
     Tested on Windows 10 x64 with Blender 2.80.0 Beta x64 (9149e894210)
 </p>
+<p>
+    Tested on Windows 10 x64 with Blender 2.79.6 x64
+</p>
+
+<b><u>INSTALLATION</u></b>
+<ul>
+	<li>Download zip archive</li>
+	<li>Open Blender User Preferences</li>
+    <li>Add-ons</li>
+	<li>Install Add-on from File...</li>
+	<li>Select donwloaded blender_optix_denoiser.zip</li>
+    <li>Render panel now has OptiX Denoising section at the bottom</li>
+</ul>
 
 <p>
-	<b>Developpers</b>, if you want to modify this addon, I recommend you to download the release directly, for the script will be the same as on this 
+	<b>Developers</b>, if you want to modify this addon, I recommend you to download the release directly, for the script will be the same as on this 
 	repository, and it will directly include the executable, which is not on the repository. The denoiser executable and all its dependencies must be
 	in the "Denosier_v2.1" folder, which is placed in the same folder as the script, like this:
 	<ul>
