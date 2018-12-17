@@ -1,14 +1,18 @@
 bl_info = {
-    'name': 'OptiX denoising for Blender',
+    'name': 'OptiX denoising for Blender 2.80.0',
+    'version': (1, 1, 1),
+    'blender': (2, 80, 0),
     'category': 'Render'
 }
  
+import ntpath
+import os
+import subprocess
+
+import numpy
+
 import bpy
 import bpy.utils.previews
-import os
-import numpy
-import subprocess
-import ntpath
 
 custom_icons = None
 script_path = None
@@ -24,7 +28,6 @@ def load_icons():
     print("Icon dir: " + icons_dir)
     custom_icons.load("optix_icon", os.path.join(icons_dir, "optix_logo.png"), 'IMAGE')
     print("OptiX logo path:" + os.path.join(icons_dir, "optix_logo.png"))
-    bpy.utils.register_module(__name__)
 
 def denoise_animation_frame(noisy_frame_path = ""):
     denoiser_path = os.path.abspath(os.path.join(os.path.dirname(script_path), "Denosier_v2.1")) + "\Denoiser.exe"
@@ -44,7 +47,7 @@ def denoise_animation_frame(noisy_frame_path = ""):
 def show_message_box(message = "", title = "OptiX Denoising", icon = 'INFO'):
 
     def draw(self, context):
-        self.layout.label(message)
+        self.layout.label(text=message)
 
     bpy.context.window_manager.popup_menu(draw, title = title, icon = icon)
 
