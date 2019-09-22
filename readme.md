@@ -84,3 +84,7 @@
 		</li>
 	</ul>
 </p>
+
+<p>
+	No more in development, since the D-Noiser addon provides the exact same functionnalities (the same executable is used in background). Also, Blender 2.81 has an embedded denoiser.
+</p>
