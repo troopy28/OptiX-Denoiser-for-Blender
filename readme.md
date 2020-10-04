@@ -1,3 +1,5 @@
+<b>Useless for Blender versions after 2.81, since a built-in denoiser in now in the software.</b>
+
 <p>
 	This addon brings the power of NVIDIA OptiX Denoiser directly into Blender 3D. It has 4 simple features:
 </p>
@@ -86,5 +88,5 @@
 </p>
 
 <p>
-	No more in development, since the D-Noiser addon provides the exact same functionnalities (the same executable is used in background). Also, Blender 2.81 has an embedded denoiser.
+	No more in development, since Blender 2.81 has multiple embedded denoisers.
 </p>
